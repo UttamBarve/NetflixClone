@@ -1,0 +1,1 @@
+This project is a responsive clone of Netflix, built using HTML and CSS to practice and enhance my web development skills. It features a user-friendly interface that adapts to different screen sizes, providing insights into real-world applications of these technologies.
