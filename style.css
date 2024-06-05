@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 680px;
+    position: relative;
+}
+.main .box{
+    height: 680px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+}
+nav img{
+    color: red;
+    width:150px;
+}
+.title{
+    height: 91%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+}
+.title> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title> :nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.title> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.separation{
+    height: 8px;
+    background-color: rgb(54, 54, 54);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 10px 35px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: rgb(253, 0, 21);
+}
+
+.nav-btn{
+    display: flex;
+    gap: 25px;
+}
+
+.title-btn{
+    display: flex;
+    gap: 6px;
+    
+}
+
+
+.email-input{
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #6e6c6c;
+    background-color: #746b6b26;
+    width: 332px;
+    padding: 13px 24px;
+    color: white;
+}
+
+.btn-red-sm{
+background-color: red;
+color: white;
+font-weight: 500 ;
+border: none;
+border-radius: 3px;
+padding: 6px 16px;
+cursor: pointer;
+}
+.btn-red-sm:hover{
+    background-color: rgb(201, 0, 0);
+}
+
+.lang-btn{
+    background-color: #76757529;
+    color: white;
+    border-radius: 3px;
+    font-weight: 400;
+    width: 120px;
+    text-align: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-bottom: 134px;
+}
+.secImg{
+    position: relative;
+} 
+
+.secImg img{
+    width: 555px;;
+    position: relative;
+    z-index: 10;
+    TOP: 62px;
+}
+.secImg video{
+    position:absolute;
+    top: 149px;
+    right: 79px;
+    width: 403px;
+}
+.first-text :first-child{
+    color: white;
+    font-size: 42px;
+    font-weight: 1000;
+    margin-bottom: 25px;
+    position: relative;
+    top: 32px;
+}
+.first-text :nth-child(2){
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 32px;
+}
+
+.second .secImg video{
+    position: relative;
+    z-index: 10;
+    top: 234PX;
+    right: -33px;
+    width: 418px;
+}
+.second .secImg img{
+    position: relative;
+    z-index: 0;
+    top: -162PX;
+    right: -33px;
+    width: 418px;
+}
+.second{
+    margin-top: -187px;
+    margin-bottom: -51px ;
+}
+
+.second .first-text> :first-child{
+    font-size: 52px;
+}
+.second .first-text :nth-child(2){
+    font-size: 23px;
+}
+
+.third .first-text :nth-child(2){
+    font-size: 23px;
+}
+.third .secImg video{
+    position: absolute;
+    top: 112px;
+    right: 103px;
+    width: 362px;
+}
+
+.fourth .first-text :first-child{
+    font-size: 46px;
+}
+.fourth .first-text :nth-child(2){
+    font-size: 23px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.faq-box{
+    display: flex;
+    background-color: #323232;
+    padding: 24px;
+    font-size: 23px;
+    justify-content: space-between;
+    width: 70vw;
+    height: 48px;
+    margin: 5px;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+    padding-bottom: 19px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.faq-box:hover{
+    background-color: #4b4a4a;
+}
+
+.faq> :first-child{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 73px;
+    font-size: 44px;
+    margin-bottom: 26px;
+}
+
+.sub-ques> :first-child{
+    color: white;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px
+}
+.sub-ques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 82px;
+}
+.helpline{
+    color: white;
+}
+.helpline a{
+    color: white;
+}
+footer{
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.foot-text-formate{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.foot-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 9px;
+    margin-bottom: 24px;
+}
+
+.names{
+    margin-top: 20px;
+}
+
+.name{
+    color: white;
+    font-size: 13px;
+
+}
+
+@media screen and (max-width: 1300px){
+    
+    .first{
+        flex-wrap: wrap;
+    }
+    .second .second-text{
+        top: -132px;
+        position: relative;
+    }
+    .fourth .fourth-text{
+        position: relative;
+        top: 31px;
+    }
+    .foot-menu{
+        grid-template-columns: 1fr 1fr;
+    }
+    .title-btn{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title> :first-child{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .title> :nth-child(2){
+        font-size: 24px;
+    }
+    .title> :nth-child(3){
+        font-size: 18px;
+    }
+
+    .btn-red-sm{
+        font-weight: 200 ;
+        }
+        .lang-btn{
+            width: 80px;
+            font-size: 15px;
+            margin-left: 20px;
+        }
+}
